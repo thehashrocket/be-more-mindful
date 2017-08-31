@@ -21,4 +21,3 @@ function handleCreated(tab) {
 }
 
 browser.tabs.onCreated.addListener(handleCreated);
- 

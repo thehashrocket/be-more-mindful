@@ -18,11 +18,18 @@
   },
 
   "permissions": [
-    "tabs"
+    "tabs",
+    "topSites"
   ],
 
   "chrome_url_overrides" : {
-	"newtab": "my-page.html"
+	"newtab": "home.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "54.0a1"
+    }
   }
 
 }
