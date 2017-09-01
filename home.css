@@ -1,3 +1,26 @@
-ht {
+h1 {
+    color: #E8F6FF;
     text-align: center;
+}
+h2 {
+    color: #A6BDCD;
+}
+#date-time {
+    color: #A6BDCD;
+}
+#textarea-container {
+    text-align: center;
+}
+
+#textarea-container textarea {
+    overflow: hidden;
+    word-wrap: break-word;
+    resize: none;
+    text-align: center;
+    height: 200px;
+    width: 500px;
+}
+
+body {
+    background-color: #5B7180;
 }

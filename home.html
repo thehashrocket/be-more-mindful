@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Start Page</title>
-      <link rel="stylesheet" href="bootstrap.min.css"/>
-      <link rel="stylesheet" href="home.css"/>
-  </head>
+    <title>Start Page</title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="home.css"/>
+</head>
 
 <body onLoad="editor.focus()">
-  <div class="container">
+<div class="container">
+    <div class="row">
+        <div class="col align-self-center">
+            <h1>Be More Mindful</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-9">
+        </div>
+        <div id="date-time" class="col-xs-12 col-sm-3">
+            <span id="date"></span> | <span id="time"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div id="textarea-container" class="col align-self-center">
+            <textarea id="editor" placeholder="What would you like to focus on?" name="text" rows="4"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2>Projects</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div id="project1" class="col-xs-12 col-4">
+            <div class="row">
+                <div class="col-12">
+                    <input id="project1-title" value="" placeholder="Enter a Project Title">
+                </div>
+            </div>
+        </div>
+        <div id="project2" class="col-xs-12 col-4">
+            <div class="row">
+                <div class="col-12">
+                    <input id="project2-title" value="" placeholder="Enter a Project Title">
+                </div>
+            </div>
+        </div>
+        <div id="project3" class="col-xs-12 col-4">
+            <div class="row">
+                <div class="col-12">
+                    <input id="project3-title" value="" placeholder="Enter a Project Title">
+                </div>
+            </div>
+        </div>
+    </div>
 
-      <div class="row">
-          <div class="col align-self-center">
-              <h1>Be More Mindful</h1>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-sm-6">
-          </div>
-          <div class="col-xs-12 col-sm-6">
-              <span id="date"></span> | <span id="time"></span>
-          </div>
-      </div>
-
-      <div class="row">
-          <div class="col align-self-center">
-              <textarea id="editor" placeholder="Enter something funny." name="text" rows="4" style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; width: 300px; "></textarea>
-          </div>
-      </div>
-
-  </div>
-  <script src="home.js"></script>
+</div>
+<script src="home.js"></script>
 </body>
 </html>
