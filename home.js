@@ -8,7 +8,6 @@ if (window.localStorage["TextEditorData"]) {
 }
 editor.addEventListener("keyup", function() {
     window.localStorage["TextEditorData"] = editor.value;
-    console.log('editor.value ', editor.value);
 });
 
 /*
@@ -21,7 +20,14 @@ if (window.localStorage["project1_title"]) {
 }
 project1_title.addEventListener("keyup", function() {
     window.localStorage["project1_title"] = project1_title.value;
-    console.log('project1_title.value ', project1_title.value);
+});
+
+var project1_task = document.querySelector("#project1-tasks");
+if (window.localStorage["project1_task"]) {
+    project1_task.value = window.localStorage["project1_task"];
+}
+project1_task.addEventListener("keyup", function() {
+    window.localStorage["project1_task"] = project1_task.value;
 });
 
 /*
@@ -34,7 +40,14 @@ if (window.localStorage["project2_title"]) {
 }
 project2_title.addEventListener("keyup", function() {
     window.localStorage["project2_title"] = project2_title.value;
-    console.log('project2_title.value ', project2_title.value);
+});
+
+var project2_task = document.querySelector("#project2-tasks");
+if (window.localStorage["project2_task"]) {
+    project2_task.value = window.localStorage["project2_task"];
+}
+project2_task.addEventListener("keyup", function() {
+    window.localStorage["project2_task"] = project2_task.value;
 });
 
 /*
@@ -47,10 +60,15 @@ if (window.localStorage["project3_title"]) {
 }
 project3_title.addEventListener("keyup", function() {
     window.localStorage["project3_title"] = project3_title.value;
-    console.log('project3_title.value ', project3_title.value);
 });
- 
-console.log('i am here');
+
+var project3_task = document.querySelector("#project3-tasks");
+if (window.localStorage["project3_task"]) {
+    project3_task.value = window.localStorage["project3_task"];
+}
+project3_task.addEventListener("keyup", function() {
+    window.localStorage["project3_task"] = project3_task.value;
+});
 
 function checkTime(i) {
     if (i < 10) {

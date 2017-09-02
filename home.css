@@ -1,3 +1,6 @@
+body {
+    background-color: #5B7180;
+}
 h1 {
     color: #E8F6FF;
     text-align: center;
@@ -7,6 +10,7 @@ h2 {
 }
 #date-time {
     color: #A6BDCD;
+    text-align: center;
 }
 #textarea-container {
     text-align: center;
@@ -20,7 +24,15 @@ h2 {
     height: 200px;
     width: 500px;
 }
+.project {
+    font-size: .8em;
+}
 
-body {
-    background-color: #5B7180;
+.project input {
+    width: 250px;
+}
+
+.project textarea {
+    width: 250px;
+    margin-top: 5px;
 }

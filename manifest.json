@@ -2,11 +2,11 @@
 
   "description": "Creates a new tab with custom content.",
   "manifest_version": 2,
-  "name": "open-my-page",
+  "name": "Be More Mindful",
   "version": "1.0",
   "homepage_url": "http://github.com/thehashrocket",
   "icons": {
-    "48": "icons/page-48.png"
+    "48": "icons/noun_1178590_cc.png"
   },
 
   "background": {
@@ -14,7 +14,7 @@
   },
 
   "browser_action": {
-    "default_icon": "icons/page-32.png"
+    "default_icon": "icons/noun_1178590_cc.png"
   },
 
   "permissions": [

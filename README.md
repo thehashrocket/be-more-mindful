@@ -1,16 +1,18 @@
-# open-my-page
+# Be More Mindful
 
 ## What it does
 
-This extension includes:
+This extension allows the user to:
 
-* a background script, "background.js"
-* a browser action
-* a page "my-page.html"
-
-All it does is: when the user clicks the button, open "my-page.html" in a new tab.
+* Open a new tab, or click an icon that spawns a new tab.
+* It allows the user to set what they are focusing on for that day.
+* The user can setup up to 3 projects and what they need to accomplish to move that project forward.
 
 ## What it shows
 
-* how to listen for browser action clicks in a background script
-* how to open a page packaged with your extension
+* What they are focusing on and what they want to accomplish today.
+
+
+
+### Citations
+##### mindfulness icon by Martyn Jasinski from the Noun Project
