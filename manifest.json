@@ -1,6 +1,6 @@
 {
 
-  "description": "Creates a new tab with custom content.",
+  "description": "Open a new tab where you can set what you would like to focus on for the day as well as up to three projects that you would like to work on.",
   "manifest_version": 2,
   "name": "Be More Mindful",
   "version": "1.0",
