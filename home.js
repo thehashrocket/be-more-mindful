@@ -99,11 +99,19 @@ function startTime() {
 
     today =  dd + ' ' + month + ' ' + yyyy;
 
-    // add a zero in front of numbers<10
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
-    document.getElementById('date').innerHTML = today;
+
+    var node = document.createElement("DIV");
+    var textnode = document.createTextNode(h + ":" + m + ":" + s + " | " + today);
+    node.appendChild(textnode);
+
+    parent = document.getElementById("date-time");
+    if (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+    parent.appendChild(node)
+
     t = setTimeout(function () {
         startTime()
     }, 500);
